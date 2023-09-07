@@ -1,3 +1,3 @@
 bruh this is a test file ya feel?
 
-this is the second test for commits/pull
+this is the second test for commit/pull/push
