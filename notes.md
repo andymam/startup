@@ -9,7 +9,7 @@
         `git push`
         `git pull`
 
-##AWS
+## AWS
 
 -create an instance
 -elastic IP address lets you shut down the server to save money and bring it up again with the same IP
