@@ -19,4 +19,8 @@ elastic IP address lets you shut down the server to save money and bring it up a
 My AWS domain: boncada.click
 
 IP address for my startup: 54.227.198.138
+
+## Caddy
+
+Used Caddy to secure my domain by enabling HTTPS
     
