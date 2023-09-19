@@ -4,8 +4,10 @@ see [Notes](https://github.com/andymam/startup/blob/main/notes.md)
 
 ## Idea: Weather App
 
+### Elevator Pitch
 My startup idea will be a weather app that allows a user to login and check the weather in either their current location, or any location they choose to input. 
 
+### Key Features
 This app will have features such as degrees, current weather conditions, and an about page.
 
 I will be using certain technologies such as:
