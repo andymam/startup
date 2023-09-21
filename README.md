@@ -22,3 +22,15 @@ I will be using certain technologies such as:
 
 ![Main](main_screenshot.png)
 
+
+## HTML deliverable
+
+For this deliverable I built out the structure of my application using HTML.
+
+- **HTML pages** - Two HTML pages, with the main one being the weather page that shows the conditions, and the other being a login page
+- **Links** - Provide a link on the main page that directs the user to the login page
+- **Text** - included text as placeholders for some of the functions like displaying degrees and city
+- **Images** - included an example svg of a weather image
+- **Login** - included a login page with an input section and sign in button
+- **Database** - The user can auto-locate their location's weather
+- **WebSocket** - The user can input a certain city to see the weather there
