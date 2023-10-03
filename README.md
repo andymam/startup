@@ -34,3 +34,11 @@ For this deliverable I built out the structure of my application using HTML.
 - **Login** - included a login page with an input section and sign in button
 - **Database** - The user can auto-locate their location's weather
 - **WebSocket** - The user can input a certain city to see the weather there
+
+## CSS deliverable
+
+For this deliverable I properly styled the application.
+
+- **Included header, main, and footer content**
+- **
+
