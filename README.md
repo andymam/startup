@@ -39,6 +39,10 @@ For this deliverable I built out the structure of my application using HTML.
 
 For this deliverable I properly styled the application.
 
-- **Included header, main, and footer content**
-- **
+- **Included header, main, and footer content for both index and login pages**
+- **Navigation elements** - edited the a tags and links to change the default link color and get rid of the underlines
+- **Resposive to window sizing** - used flex display modes to ensure my site works smoothly on any size window
+- **Application Elements** - consistent colors that use good complements/contrasts
+- **Application Text** - consistent fonts
+- **Application Images** - placeholder for the image that will change depending on the weather
 
