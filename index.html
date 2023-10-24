@@ -22,14 +22,14 @@
             
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div>
-                <img src="data:image/jpeg;base64,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" alt="">
+                <img src="IMG_5752.jpg" width="200em">
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4">
-      
+                <span id="welcome"></span>
               <h3 class="mb-4 pb-2 fw-normal">Check the weather forecast</h3>
       
               <div class="input-group rounded mb-3">
-                <input type="search" class="form-control rounded" id="seachBar" placeholder="City" aria-label="Search"
+                <input type="search" class="form-control rounded" id="searchBar" placeholder="Zip Code" aria-label="Search"
                   aria-describedby="search-addon" />
                 <a href="#!" type="button" onclick="checkBtn()">
                   <span class="input-group-text border-0 fw-bold" id="search-addon">
@@ -38,7 +38,7 @@
                 </a>
               </div>
       
-              <div class="mb-4 pb-2">
+              <!-- <div class="mb-4 pb-2">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                     value="option1" checked />
@@ -50,14 +50,14 @@
                     value="option2" />
                   <label class="form-check-label" for="inlineRadio2">Farenheit</label>
                 </div>
-              </div>
+              </div> -->
       
               <div class="card shadow-0 border">
                 <div class="card-body p-4">
       
-                  <h4 class="mb-1 sfw-normal" id="cityName">New York, US</h4>
-                  <p class="mb-2">Current temperature: <strong>5.42°C</strong></p>
-                  <p>Max: <strong id="maxTemp">6.11°C</strong>, Min: <strong id="minTemp">3.89°C</strong></p>
+                  <h4 class="mb-1 sfw-normal" id="cityName">City Name, US</h4>
+                  <p class="mb-2" id="currentTemp">Current temperature: <strong>0</strong></p>
+                  <p>Max: <strong id="maxTemp">0</strong>, Min: <strong id="minTemp">0</strong></p>
                 </div>
               </div>
       

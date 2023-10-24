@@ -7,18 +7,19 @@ async function getWeatherData([lat, long]){
         .then(rs=>rs.json());
 }
     
-const API_KEY = "DemoOnly00gH8wbb344Ca9wRlS2B9Btt3Nqg7g6GkvvSswAhCSX2jtqxzmK8kWuM";
-async function getLocationData(address){
-   return {lat:40.7128, lng:-74.0060, city:"New York"}
-    // return fetch(`https://www.zipcodeapi.com/rest/${API_KEY}/info.json/${address}/degrees`).then(rs=>rs.json());
+const API_KEY = "j5c7P8Gc6SoM20yyoaBJ5KMba8eN6JGprjue8FZ9IRLkZRRaM6DTPhgSSuH0vMkC";
+async function getLocationData(zipcode){
+    return fetch(`https://www.zipcodeapi.com/rest/${API_KEY}/info.json/${zipcode}/degrees`, { mode: 'no-cors'}).then(rs=>rs.json()).catch(s=>{console.log(s); return {lat:"0",lng:"0",city:"Null Island"}});
 }
 
 async function parseWeatherDate(data){
     console.log(data);
     let maxTemp = data['daily']['temperature_2m_max'][0];
     let minTemp = data['daily']['temperature_2m_min'][0];
+    let currentTemp = data['daily']['temperature_2m'][0];
     document.getElementById('maxTemp').innerText = maxTemp + "°F";
     document.getElementById('minTemp').innerText = minTemp + "°F";
+    document.getElementById('currentTemp').innerText = currentTemp + "°F";
 }
 async function parseLocationDate(data){
     console.log(data);
@@ -36,9 +37,12 @@ function run(zipcode){
 }
 
 function checkBtn(){
-    run(document.getElementById("seachBar").value);
+    const zipCode = document.getElementById("searchBar").value;
+    run(zipCode);
 }
 
-window.onload = function (){
-    run("84604")
+
+window.onload = function () {
+    const userName = localStorage.getItem('userName') || 'Mystery';
+    document.getElementById('welcome').innerText = `Welcome, ${userName}`;
 };
