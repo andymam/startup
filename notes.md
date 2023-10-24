@@ -28,7 +28,10 @@ Used Caddy to secure my domain by enabling HTTPS
 
 In the following code, what does the link element do?
 - asdf
+  
 In the following code,  what does a div tag do?
+-asdf
+
 In the following code, what is the difference between the #title and .grid selector?
 In the following code, what is the difference between padding and margin?
 Given this HTML and this CSS how will the images be displayed using flex?
