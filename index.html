@@ -1,72 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Startup</title>
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/index.css">
-    <script src="main.js"></script>
-</head>
-<body>
-    <header>
-        <div class="header"> 
-            <ul class="left-links">
-              <li><a class="link" href="#"><span>Home</span></a></li>
-              <li><a class="link" href="/login.html">Login</a></li>
-            </ul>
-          </div>
-    </header>
-    <section class="vh-100">
-        <div class="container py-5 h-100">
-            
-          <div class="row d-flex justify-content-center align-items-center h-100">
-            <div>
-                <img src="IMG_5752.jpg" width="200em">
-            </div>
-            <div class="col-md-8 col-lg-6 col-xl-4">
-                <span id="welcome"></span>
-              <h3 class="mb-4 pb-2 fw-normal">Check the weather forecast</h3>
-      
-              <div class="input-group rounded mb-3">
-                <input type="search" class="form-control rounded" id="searchBar" placeholder="Zip Code" aria-label="Search"
-                  aria-describedby="search-addon" />
-                <a href="#!" type="button" onclick="checkBtn()">
-                  <span class="input-group-text border-0 fw-bold" id="search-addon">
-                    Check!
-                  </span>
-                </a>
+    <script src="login.js"></script>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <section class="vh-100 gradient-custom">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card bg-dark text-white" style="border-radius: 1rem;">
+              <div class="card-body p-5 text-center">
+    
+                <div class="mb-md-5 mt-md-4 pb-5">
+    
+                  <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                  <p class="text-white-50 mb-5">Please enter your name to login!</p>
+    
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                    <label class="form-label" for="typeEmailX">Enter Your Name</label>
+                  </div>
+
+
+                  <button class="btn btn-outline-light btn-lg px-5" type="submit" onclick="login()">Login</button>
+    
+                  <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                    <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                    <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                    <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                  </div>
+    
+                </div>
+    
               </div>
-      
-              <!-- <div class="mb-4 pb-2">
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1" checked />
-                  <label class="form-check-label" for="inlineRadio1">Celsius</label>
-                </div>
-      
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2" />
-                  <label class="form-check-label" for="inlineRadio2">Farenheit</label>
-                </div>
-              </div> -->
-      
-              <div class="card shadow-0 border">
-                <div class="card-body p-4">
-      
-                  <h4 class="mb-1 sfw-normal" id="cityName">City Name, US</h4>
-                  <p class="mb-2" id="currentTemp">Current temperature: <strong>0</strong></p>
-                  <p>Max: <strong id="maxTemp">0</strong>, Min: <strong id="minTemp">0</strong></p>
-                </div>
-              </div>
-      
             </div>
           </div>
-      
         </div>
-      </section>
-<footer class="footer">
-    <a class="link" href="https://github.com/andymam/startup">GitHub</a>
-</footer>
+      </div>
+    </section>
+    <footer class="footer">
+      <a class="link" href="https://github.com/andymam/startup">GitHub</a>
+  </footer>
+  </body>
 </html>
