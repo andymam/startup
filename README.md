@@ -55,3 +55,13 @@ For this deliverable I implemented Javascript
 - **Websocket** - Use of fetch to get info relating to a zip code when a user enters one
 - **Application Logic** - The info changes based on what the user enters. I use the provided zip code from input to then find latitude and longitudes, and find the weather for those coordinates.
 
+## Service deliverable
+
+For this deliverable I created service that gets info from API's and uses them properly.
+
+- **Node.js/Express HTTP service** - done.
+- **Static middleware for frontend** - done.
+- **Calls to third party endpoints** - done.
+- **Backend service endpoints** - done.
+- **Frontend calls service endpoints** - done. (using fetch)
+
