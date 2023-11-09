@@ -46,3 +46,12 @@ For this deliverable I properly styled the application.
 - **Application Text** - consistent fonts
 - **Application Images** - placeholder for the image that will change depending on the weather
 
+## Javascript deliverable
+
+For this deliverable I implemented Javascript
+
+- **Login** - Stores login name and displays it on main page
+- **Database** - Display weather conditions. This is currently hardcoded, but will be using API's and fetch to get info
+- **Websocket** - Use of fetch to get info relating to a zip code when a user enters one
+- **Application Logic** - The info changes based on what the user enters. I use the provided zip code from input to then find latitude and longitudes, and find the weather for those coordinates.
+
