@@ -10,7 +10,8 @@ async function getWeatherData([lat, long]){
 const API_KEY = "j5c7P8Gc6SoM20yyoaBJ5KMba8eN6JGprjue8FZ9IRLkZRRaM6DTPhgSSuH0vMkC";
 async function getLocationData(zipcode) {
     try {
-        const response = await fetch(`https://www.zipcodeapi.com/api/weather/${zipcode}`);
+        const response = await fetch(`https://startup.boncada.click/getZipcodeData/${zipcode}`);
+        // const response = await fetch(`/api/weather/:${zipcode}`);
         const data = await response.json();
         return data;
     } catch (error) {

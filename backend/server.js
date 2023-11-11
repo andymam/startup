@@ -7,7 +7,7 @@ app.use(cors());
 
 app.use(express.static('public'));
 
-const apiRouter = require('./routes/apiRouter');
+var apiRouter = require('./routes/apiRouter');
 app.use('/api', apiRouter);
 
 app.use((_req, res) => {

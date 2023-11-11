@@ -5,6 +5,7 @@ const { getLocationData, getWeatherData, parseWeatherData } = require('../apiFun
 
 apiRouter.get('/weather/:zipcode', async (req, res) => {
   const zipcode = req.params.zipcode;
+  console.log(zipcode);
 
   try {
     const locationData = await getLocationData(zipcode);
