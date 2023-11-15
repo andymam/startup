@@ -1,7 +1,7 @@
 const express = require('express');
 const apiRouter = express.Router();
 
-const { getLocationData, getWeatherData, parseWeatherData } = require('../apiFunctions');
+const { getLocationData, getWeatherData, parseWeatherData } = require('./apiFunctions');
 
 apiRouter.get('/weather/:zipcode', async (req, res) => {
   const zipcode = req.params.zipcode;

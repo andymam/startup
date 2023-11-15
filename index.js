@@ -1,13 +1,13 @@
 const express = require('express');
-const cors = require('cors');
+
 const app = express();
 const port = 4000;
 
-app.use(cors());
+
 
 app.use(express.static('public'));
 
-var apiRouter = require('./routes/apiRouter');
+var apiRouter = require('./apiRouter');
 app.use('/api', apiRouter);
 
 app.use((_req, res) => {
