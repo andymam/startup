@@ -65,3 +65,20 @@ For this deliverable I created service that gets info from API's and uses them p
 - **Backend service endpoints** - done.
 - **Frontend calls service endpoints** - done. (using fetch)
 
+## DB deliverable
+
+For this deliverable I stored user information in a database.
+
+- **MongoDB Atlas database created** - done.
+- **Endpoints for data**  - my code processes data and sends it to mongo
+- **Stores data in Mongo** - yes.
+
+## Login Deliverable
+
+For this deliverable I implemented user authentication
+
+- **User Registration** - Either login or create a new account on login attempt.
+- **Existing User** - stores login info in db if the user already exists.
+- **Use MongoDB to store credentials** - yes.
+- **Restricts frontend functionality** - Yes. You can only access the main page and use the service after logging in.
+
