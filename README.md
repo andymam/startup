@@ -82,3 +82,21 @@ For this deliverable I implemented user authentication
 - **Use MongoDB to store credentials** - yes.
 - **Restricts frontend functionality** - Yes. You can only access the main page and use the service after logging in.
 
+  ## Websocket Deliverable
+
+For this deliverable I used websocket to implement a chat feature
+
+- **Backened listens for ebsocket connection** - done
+- **Frontend makes websocket connection** - done
+- **Data sent over websocket connection** - yes.
+- **websocket data displayed** - Yes. In the form of chats
+
+  ## React Deliverable
+
+For this deliverable I converted the applicaton to use react.
+
+- **Bundled and transpiled** - 
+- **Components** - 
+- **Router** - 
+- **Hooks** -
+
