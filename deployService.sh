@@ -22,6 +22,7 @@ mkdir dist
 cp -r public dist
 cp *.js dist
 cp *.json dist
+cp dbconfig.json dist
 
 # Step 2
 printf "\n----> Clearing out previous distribution on the target\n"
@@ -46,6 +47,5 @@ ENDSSH
 # Step 5
 printf "\n----> Removing local copy of the distribution package\n"
 rm -rf dist
-
 
 # ./deployService.sh -k ~/Downloads/aws-key/production.pem -h boncada.click -s startup
