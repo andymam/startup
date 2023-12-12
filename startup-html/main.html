@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </head>
+<body>
+    <header>
+        <div class="header"> 
+            <ul class="left-links">
+              <li><a class="link" href="#"><span>Home</span></a></li>
+              <li><a class="link" href="/index.html">Login</a></li>
+              <li><a class="link" href="/chat.html">Chat</a></li>
+            </ul>
+          </div>
+    </header>
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div>
+                <img src="IMG_5752.jpg" width="200em">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                <span id="welcome"></span>
+              <h3 class="mb-4 pb-2 fw-normal">Check the weather forecast</h3>
+      
+              <div class="input-group rounded mb-3">
+                <input type="search" class="form-control rounded" id="searchBar" placeholder="Zip Code" aria-label="Search"
+                  aria-describedby="search-addon" />
+                <a href="#!" type="button" onclick="checkBtn()">
+                  <span class="input-group-text border-0 fw-bold" id="search-addon">
+                    Check!
+                  </span>
+                </a>
+              </div>
+              <div class="card shadow-0 border">
+                <div class="card-body p-4">
+      
+                  <h4 class="mb-1 sfw-normal" id="cityName">City Name, US</h4>
+                  <p class="mb-2" id="currentTemp">Current temperature: <strong>0</strong></p>
+                  <p>Max: <strong id="maxTemp">0</strong>, Min: <strong id="minTemp">0</strong></p>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+      
+        </div>
+      </section>
+<footer class="footer">
+    <a class="link" href="https://github.com/andymam/startup">GitHub</a>
+</footer>
+</html>

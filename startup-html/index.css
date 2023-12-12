@@ -1,0 +1,24 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: rgb(244, 244, 229);
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    background-color: rgb(244, 244, 229);
+  }
+
+  a {
+    color: #666;
+    text-decoration: none;
+  }
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
