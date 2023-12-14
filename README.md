@@ -96,7 +96,7 @@ For this deliverable I used websocket to implement a chat feature
 For this deliverable I converted the applicaton to use react.
 
 - **Bundled and transpiled** - Vite implemented
-- **Components** - 
-- **Router** - 
-- **Hooks** -
+- **Components** - done.
+- **Router** - done. 
+- **Hooks** - done.
 
